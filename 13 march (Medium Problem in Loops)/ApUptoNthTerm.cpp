@@ -5,14 +5,14 @@
 using namespace std;
 
 main(){
-    //given a.p
+    //given a.p: 1,3,5,7,9......
     int a,b,d,n;
     a=1;
     b=3;
     d=b-a;
-    cout<<"enter the Nth term for A.P"<<endl;
+    cout << "Enter the number of terms: ";
     cin>>n;
-    cout<<"A.P=";
+    cout << "Arithmetic Progression upto " << n << " terms:\n";
     for(int i=1;i<=n;i++){
         cout<<a<<" ";
         a=a+d;
