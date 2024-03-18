@@ -8,9 +8,9 @@ main() {
     bool isPrime = true;
 
     cout << "Enter a positive integer: ";
-    cin >> number;
+    cin >> number;//5
 
-    if (number <= 1)
+    if (number <= 1) //5<=1
         isPrime = 0;
     else {
         int i = 2;

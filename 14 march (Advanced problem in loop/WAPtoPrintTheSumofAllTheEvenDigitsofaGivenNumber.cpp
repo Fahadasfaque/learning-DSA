@@ -6,10 +6,10 @@ using namespace std;
 main() {
     int num, digit;
     cout << "Enter a number: ";
-    cin >> num;
+    cin >> num;//123456
 
     int sum = 0;
-    while (num > 0) {
+    while (num > 0) { 
         digit = num % 10; // Extract the last digit 
         if (digit % 2 == 0) {    // Check if the digit is even
             sum = sum+digit;         // Add the even digit to the sum
